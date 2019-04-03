@@ -1,6 +1,84 @@
-h2{
-  background: grey;
-  border: 1px solid black;
-  height: 40px;
-  text-align: center;
+body{
+  background: black;
+  font-family: "Gloria Hallelujah";
+  box-sizing: border-box;
+}
+.contenedor{
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+}
+.encabezado{
+  height: 19vh;
+  min-height: 70px;
+  background: #3d0066;
+  margin: 0;
+
+}
+.principal,.titulo,.redes-sociales{
+  height: inherit;
+  background-color: inherit;
+}
+.principal img{
+  padding: 5px;
+  height: 98%;
+  /* margin-top: 5px; */
+}
+.titulo h1{
+  margin-top: 60px;
+  font-weight: bold;
+  color: #ffff;
+  font-size: 4rem
+}
+.redes-iconos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height:65px;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.redes-iconos img{
+  height: 35px;
+  padding: 0 4px;
+  margin-top: 10px;
+}
+.navigation{
+  width: 100%;
+  padding: 0;
+  background: #1f0033;
+  margin: 0;
+}
+.navigation a:hover{
+  background: rgba(155, 24, 216, 0.46) !important;
+  color: white;
+}
+@media (max-width:768px) {
+  .encabezado{
+    height: 29vh;
+  }
+  .principal{
+    height: 15vh;
+  }
+  .titulo{
+    text-align: center;
+    height: 70px;
+  }
+  .titulo h1{
+    margin: 0;
+    padding: 0;
+  }
+  .redes-sociales{
+    height: 55px;
+  }
+  .redes-iconos{
+    position: initial;
+    margin: auto;
+  }
+  .redes-iconos img{
+    margin: 0 0 18px 0;
+  }
 }
