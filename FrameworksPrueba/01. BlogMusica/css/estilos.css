@@ -122,7 +122,9 @@ body{
   box-sizing: border-box;
   border-left: 8px solid black;
 }
-
+.ancho-lista{
+  max-width: inherit;
+}
 
 /* ---------------------------- */
 @media (max-width:767px) {
