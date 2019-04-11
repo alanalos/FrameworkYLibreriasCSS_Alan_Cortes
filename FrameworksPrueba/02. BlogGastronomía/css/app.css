@@ -1,3 +1,33 @@
-h1{
-  color: orange;
+
+body{
+  background: url("../images/Fondo.jpg") fixed ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  background-color: rgba(244, 174, 11, 0.81);
+}
+.titulo h2,.titulo h3{
+  color: #cc6600;
+}
+.titulo h6{
+  color: #b35900;
+}
+/* div{
+  box-sizing: border-box;
+  border: 1px dotted black;
+} */
+.logo{
+  width:20%;
+}
+.input-busqueda{
+margin: 0 !important;
+}
+.margin-img{
+  /* margin: auto; */
+  padding: 0 !important;
+}
+.historial{
+  list-style: none;
 }
