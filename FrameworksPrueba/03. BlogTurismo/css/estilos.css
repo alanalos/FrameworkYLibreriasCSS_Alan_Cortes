@@ -1,0 +1,30 @@
+body{
+  background: url("../images/Fondo.jpg") fixed;
+  background-size:cover;
+}
+/* div{
+  border:1px dotted white;
+} */
+.botones{
+  padding-top: 0.8rem;
+}
+.galeria img{
+  margin-bottom: 15px;
+}
+
+/* .opacidad{
+  opacity: 0.8;
+} */
+
+.publicacion1 img, .publicacion1 p, .publicacion1 h4{
+  margin: 10px 15px;
+}
+.autor img{
+  padding-top: 15px;
+}
+.autor p{
+  padding: 3%;
+}
+.autor h5>strong{
+  border-bottom: 2px solid grey;
+}
