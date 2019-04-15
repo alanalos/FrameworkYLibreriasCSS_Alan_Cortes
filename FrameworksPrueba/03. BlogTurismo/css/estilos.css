@@ -1,3 +1,6 @@
+html{
+  width:100%;
+}
 body{
   background: url("../images/Fondo.jpg") fixed;
   background-size:cover;
@@ -5,9 +8,11 @@ body{
 /* div{
   border:1px dotted white;
 } */
+
 .botones{
   padding-top: 0.8rem;
 }
+
 .galeria img{
   margin-bottom: 15px;
 }
@@ -18,13 +23,29 @@ body{
 
 .publicacion1 img, .publicacion1 p, .publicacion1 h4{
   margin: 10px 15px;
+  width: 95%;
+  padding: 3%;
 }
+
 .autor img{
   padding-top: 15px;
+  width: 90%;
 }
 .autor p{
   padding: 3%;
 }
 .autor h5>strong{
   border-bottom: 2px solid grey;
+}
+@media only screen and (max-width:600px) {
+  .container{
+    width: 98% !important;
+  }
+  .botones{
+    width: 100%;
+  }
+  .botones a{
+    width:100%;
+    margin:0.5% 0;
+  }
 }
